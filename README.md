@@ -14,8 +14,8 @@ A RESTful API for managing a library system built with Django and Django REST Fr
 
 1. Clone the repository
 ```bash
-git clone https://github.com/Sir-Nightfallx9/library-system-api.git
-cd library-system-api
+git clone https://github.com/Sir-Nightfallx9/ACT1-library-system-api-main.git
+cd ACT1-library-system-api-main
 ```
 
 2. Create virtual environment
