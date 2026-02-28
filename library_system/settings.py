@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'library_system.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'library_db',
+        'USER': 'postgres',
+        'PASSWORD': 'YOUR_PASSWORD_HERE',  # The password you set during PostgreSQL installation
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
