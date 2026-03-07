@@ -34,15 +34,3 @@ Thumbs.db
 # Environment variables
 .env
 *.env
-
-# Node modules
-library_frontend/node_modules/
-
-# Python stuff
-*.pyc
-__pycache__/
-venv/
-.env
-
-# Django stuff
-db.sqlite3
