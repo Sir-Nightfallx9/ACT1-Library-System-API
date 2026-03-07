@@ -16,17 +16,20 @@ A RESTful API for managing a library system built with Django and Django REST Fr
 ```bash
 git clone https://github.com/Sir-Nightfallx9/ACT1-library-system-api-main.git
 cd ACT1-library-system-api-main
+cd ACT1-library-system-api-main/library_frontend
 ```
 
 2. Create virtual environment
 ```bash
 python -m venv venv
 venv\Scripts\activate  # On Windows
+open another terminal for frontend
 ```
 
 3. Install dependencies
 ```bash
 pip install django djangorestframework
+npm install (On the frontend terminal terminal)
 ```
 
 4. Run migrations
@@ -42,6 +45,7 @@ python manage.py createsuperuser
 6. Run the server
 ```bash
 python manage.py runserver
+npm run dev (on the frontend terminal)
 ```
 
 7. Visit http://127.0.0.1:8000/
