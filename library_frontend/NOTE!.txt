@@ -1,0 +1,3 @@
+Regarding the "Date Modified/Created" being 3/7/2026..
+
+This, the addition of Frontend for Django was all done and FINISHED even checked, on February 28, 2026.. The reason, is for some reason, at the attempt of pushing it to GitHub, everything got deleted.. Luckily I made a backup at the same day.
